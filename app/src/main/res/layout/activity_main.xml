@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <EditText
+                android:id="@+id/num_serie"
+                android:layout_width="289dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="32dp"
+                android:autofillHints=""
+                android:ems="10"
+                android:hint="@string/numero_de_serie"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/descripcion"
+                android:layout_width="288dp"
+                android:layout_height="43dp"
+                android:layout_marginTop="12dp"
+                android:autofillHints=""
+                android:ems="10"
+                android:hint="@string/descripcion"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/tamanio"
+                android:layout_width="288dp"
+                android:layout_height="43dp"
+                android:layout_marginTop="20dp"
+                android:autofillHints=""
+                android:ems="10"
+                android:hint="@string/tama_o"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/sis_oper"
+                android:layout_width="288dp"
+                android:layout_height="43dp"
+                android:layout_marginTop="8dp"
+                android:autofillHints=""
+                android:ems="10"
+                android:hint="@string/sistema_operativo"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/camara"
+                android:layout_width="288dp"
+                android:layout_height="43dp"
+                android:layout_marginTop="16dp"
+                android:autofillHints=""
+                android:ems="10"
+                android:hint="@string/c_mara"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/ram"
+                android:layout_width="288dp"
+                android:layout_height="43dp"
+                android:layout_marginTop="16dp"
+                android:autofillHints=""
+                android:ems="10"
+                android:hint="@string/ram"
+                android:inputType="textPersonName" />
+
+            <Button
+                android:id="@+id/registrar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="28dp"
+                android:onClick="Registrar"
+                android:text="@string/registrar_producto" />
+
+            <Button
+                android:id="@+id/buscar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:onClick="Buscar"
+                android:text="@string/buscar_producto" />
+
+            <Button
+                android:id="@+id/actualizar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:onClick="Actualizar"
+                android:text="@string/actualizar_producto" />
+
+            <Button
+                android:id="@+id/eliminar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:onClick="Eliminar"
+                android:text="@string/eliminar_producto" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

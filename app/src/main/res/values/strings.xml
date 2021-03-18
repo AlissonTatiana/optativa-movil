@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Optativa</string>
+    <string name="numero_de_serie">Numero de serie</string>
+    <string name="descripcion">Descripcion</string>
+    <string name="tama_o">Tamaño</string>
+    <string name="sistema_operativo">Sistema operativo</string>
+    <string name="c_mara">Cámara</string>
+    <string name="ram">RAM</string>
+    <string name="registrar_producto">Registrar producto</string>
+    <string name="buscar_producto">Buscar producto</string>
+    <string name="actualizar_producto">Actualizar producto</string>
+    <string name="eliminar_producto">Eliminar producto</string>
+</resources>
